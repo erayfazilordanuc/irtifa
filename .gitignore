@@ -38,3 +38,9 @@ yarn-error.*
 .DS_Store
 Thumbs.db
 notes
+
+# Yerel plan ve karar belgeleri (takip edilmez)
+KARARLAR.md
+YAPILACAKLAR.md
+YAPILACAKLAR_ARSIV.md
+YAPILACAKLAR_TERAKKI.md
