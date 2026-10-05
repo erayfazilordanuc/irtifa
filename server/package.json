@@ -1,0 +1,22 @@
+{
+  "name": "irtifa-backend",
+  "version": "1.0.0",
+  "description": "İrtifa için isteğe bağlı Gemini proxy sunucusu (BYOK varsayılan; bu sunucu gerekmez)",
+  "main": "server.ts",
+  "scripts": {
+    "start": "tsx server.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.3",
+    "typescript": "~5.9.2"
+  }
+}

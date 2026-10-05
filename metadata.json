@@ -1,0 +1,10 @@
+{
+  "name": "İrtifa",
+  "description": "Mülakat ve iş hayatına hazırlık: kurum bazlı mülakat simülasyonu, günlük alan testi, yapay zekâ geri bildirimi ve başvuru takibi.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

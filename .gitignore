@@ -1,0 +1,40 @@
+# Bagimliliklar
+node_modules/
+
+# Derleme ciktilari
+build/
+dist/
+coverage/
+# Native projeler app.json'dan uretiliyor (`npx expo prebuild --clean`);
+# elle duzenlenmiyor, bu yuzden depoda tutulmuyor.
+android/
+ios/
+*.apk
+*.aab
+*.ipa
+*.keystore
+
+# Expo / Metro cache
+.expo/
+.expo-shared/
+web-build/
+.metro-health-check*
+
+# Yerel yedekler ve buyuk dosyalar
+backup/
+
+# Ortam degiskenleri
+.env*
+!.env.example
+
+# Loglar ve gecici ciktilar
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+/çöz
+
+# Isletim sistemi
+.DS_Store
+Thumbs.db
+notes

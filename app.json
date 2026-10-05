@@ -1,0 +1,78 @@
+{
+  "expo": {
+    "name": "Irtifa",
+    "slug": "irtifa",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.irtifa.app",
+      "infoPlist": {
+        "CFBundleDisplayName": "İrtifa"
+      }
+    },
+    "android": {
+      "package": "com.irtifa.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F172A",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Mülakat simülasyonunda kendini görerek cevap verebilmen ve duruşunun değerlendirilebilmesi için kamera kullanılır. Yapay zekâ açıksa birkaç düşük çözünürlüklü kare analiz için Google'a gönderilir; görüntü cihazda saklanmaz.",
+          "microphonePermission": "Mülakat simülasyonunda sesli cevabını kaydetmek için mikrofon kullanılır. Kayıt cihazında saklanır; yapay zekâ açıksa analiz için Google'a gönderilir."
+        }
+      ],
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Mülakat simülasyonunda sesli cevabını kaydetmek için mikrofon kullanılır. Kayıt cihazında saklanır; yapay zekâ açıksa analiz için Google'a gönderilir."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#10B981"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "usesCleartextTraffic": true
+          }
+        }
+      ],
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 170,
+          "resizeMode": "contain",
+          "backgroundColor": "#0F172A"
+        }
+      ],
+      "expo-sqlite",
+      "expo-secure-store",
+      "./plugins/withDisplayName"
+    ]
+  }
+}
