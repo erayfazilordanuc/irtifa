@@ -2,10 +2,6 @@
 
 **Mülakata ve iş hayatına hazırlanmak için bir cep uygulaması.**
 
-> Ekran görüntüleri henüz eklenmedi — bu dosyadaki `assets/screenshots/`
-> yolları şimdilik yer tutucu. Aşağıya gerçek görüntüler eklenince
-> görünecekler; nasıl tamamlanacağı dosyanın sonunda yazıyor.
-
 ---
 
 ## Bu uygulama ne işe yarıyor?
@@ -114,19 +110,3 @@ görsün diye.
 
 Şu an uygulama geliştirme aşamasında, mağazalarda değil. Kurulum ve geliştirme
 adımları için [README.md](README.md) dosyasına bakabilirsiniz.
-
----
-
-<!--
-EKRAN GÖRÜNTÜSÜ EKLEME NOTU (bu blok yayınlanmadan önce silinebilir):
-
-Bu dosyadaki `assets/screenshots/*.png` yolları henüz gerçek dosya değil.
-Eklemek için:
-
-1. Telefonu (ya da emülatörü) bağlayın, uygulamayı açın.
-2. Her sekmeden bir ekran görüntüsü alın: hub, interview, crisis, workshop,
-   career, progress.
-3. Dosyaları `assets/screenshots/` klasörüne yukarıdaki adlarla koyun
-   (örn. `assets/screenshots/hub.png`).
-4. Bu notu silin.
--->

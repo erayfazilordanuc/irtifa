@@ -280,7 +280,7 @@ function WelcomeStep({ onStart, onSkip }: { onStart: () => void; onSkip: () => v
             textAlign: 'center',
           }}
         >
-          Her gün birkaç dakikalık pratikle kelime, konuşma, nefes ve odak.
+          Her gün birkaç dakikalık pratikle mülakat, konuşma, nefes ve odak.
         </Text>
       </View>
       <View style={{ paddingHorizontal: 24, paddingBottom: Math.max(insets.bottom, 20) + 8 }}>
