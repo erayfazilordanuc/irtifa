@@ -29,7 +29,7 @@ export async function ensureHabitChannel(): Promise<void> {
   await Notifications.setNotificationChannelAsync(HABIT_CHANNEL_ID, {
     name: 'Aralıklı Hatırlatıcılar',
     importance: Notifications.AndroidImportance.DEFAULT,
-    description: 'Su içme, göz molası gibi gün içi tekrarlanan hatırlatmalar',
+    description: 'Mülakat nefesi, duruş, STAR tekrarı gibi gün içi tekrarlanan hatırlatmalar',
     lightColor: '#3DB1FF',
     enableVibrate: true,
     vibrationPattern: [0, 180, 120, 180],

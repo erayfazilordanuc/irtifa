@@ -7,7 +7,7 @@ import type { HabitReminderPlanInput } from './habitPlan';
 
 // Aralıklı hatırlatıcıların ayarları ve günlük sayaçları — YAPILACAKLAR Bölüm 4a.
 //
-// Her şablondan bir hatırlatıcı var (su, göz molası…); kullanıcı sıfırdan
+// Her şablondan bir hatırlatıcı var (mülakat nefesi, duruş…); kullanıcı sıfırdan
 // hatırlatıcı OLUŞTURMUYOR, listeden açıp aralığını/saatlerini ayarlıyor
 // (KARARLAR "Kullanıcıdan içerik yazması istenmez"). Hepsi varsayılan olarak
 // KAPALI: uygulama kendiliğinden bildirim yağdırmaz.
